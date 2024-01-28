@@ -1,10 +1,3 @@
-%-------------------------
-% Resume in Latex
-% Author : Jake Gutierrez
-% Based off of: https://github.com/sb2nov/resume
-% License : MIT
-%------------------------
-
 \documentclass[letterpaper,11pt]{article}
 
 \usepackage{latexsym}
@@ -86,10 +79,10 @@
   }
 }
 
-\newcommand{\achievement}[2]{
+\newcommand{\credential}[2]{
   \item
-    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      {#1 #2}
+    \begin{tabular*}{0.94\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \text{\small#1} & \textit{\small #2} \\
     \end{tabular*}\vspace{-7pt}
 }
 
@@ -100,6 +93,8 @@
 \newcommand{\companyListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\credentialListStart}{\begin{itemize}}
+\newcommand{\credentialListEnd}{\end{itemize}\vspace{-5pt}}
 
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -108,11 +103,6 @@
 \begin{document}
 
 %----------HEADING----------
-% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
-%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
-% \end{tabular*}
-
 \begin{center}
     {\Huge \scshape Jakob Werle} \\ \vspace{1pt}
     1934 N 7th St, Philadelphia, Pennsylvania 19122 \\ \vspace{1pt}
@@ -136,7 +126,7 @@
             \resumeItemListStart
             \resumeItem{Fabricated electrical schematic to integrate ECU, CAN bus, 20+ sensors using Rapid Harness software}
             \resumeItem{Created standardized wiring harness construction procedure which closely aligns with military specifications}
-            \resumeItem{Analyzed the electrical draw of all conductors and components to eliminate reliability failures}
+            \resumeItem{Analyzed the current and voltage draw of critical conductors and components to eliminate reliability failures}
             \resumeItem{Calibrated MoTeC data logging and EFI engine controller unit alongside team}
             \resumeItemListEnd
         \role{President/Chief Engineer}{June 2021 -- June 2022}
@@ -152,35 +142,34 @@
             \resumeItemListEnd
         \role{Suspension Lead Engineer}{June 2020 -- June 2021}
             \resumeItemListStart
-            \resumeItem{Decreased mass of wheel assemblies by designing for 10in wheels}
-            \resumeItem{Vehicle dynamics analysis}
-            \resumeItem{Machined billet CNC wheel assemblies}
-            \resumeItem{Designed infitely adjustable anti-roll bar for optimize roll of car}
+            \resumeItem{Wrote python code to make vehicle handling improvements by analyzing vehicle dynamics and tire behavior}
+            \resumeItem{Designed suspension linkages and wheel assemblies to achieve precise kinematic parameters}
+            \resumeItem{Fabricated wheel assemblies using HAAS CNC mill \& lathe}
             \resumeItem{Worked with other system leads to ensure cohesive design elements}
             \resumeItemListEnd
     \company{NDI Engineering}{Thorofare, New Jersey}
         \role{Mechanical Engineer}{June 2022 -- Present}
             \resumeItemListStart
-            \resumeItem{Administrated completion of engineering drawing packages}
-            \resumeItem{Main contact with customer}
-            \resumeItem{GD\&T production on buoy drawings}
-            \resumeItem{Production on buoy drawings}
+            \resumeItem{Administrated completion of GD\&T drawing package for entire department}
+            \resumeItem{Communicated with customer while following strict data security protocol}
+            \resumeItem{Developed installation drawings for temporary system alteration of Ohio \& Columbia class submarines}
+            \resumeItem{Performed tensile and torsional mechanical testing threaded inserts and gimbal}
             \resumeItemListEnd
     \company{ANZE Suspension}{Jupiter, Florida (Remote/Traveling)}
         \role{Junior Race Engineer}{May 2022 -- Present}
             \resumeItemListStart
+            \resumeItem{Assisted lead engineer in spotting \& data collection in pit box during race sessions}
             \resumeItem{Debriefed drivers after race sessions to determine handling characteristics}
             \resumeItem{Reviewed lap data using Stars telemetry software and video footage}
             \resumeItem{Developed suspension adjustments for F1600 \& F2000 cars utilizing driving data}
-            \resumeItem{Performed string-alignments, shock set-downs, corner scales, roll-bar adjustments, etc.}
-            \resumeItem{Performed vehicle setup procedure in intense, time dependant environment}
-            \resumeItem{Assisted lead engineer in recording data in pitlane \& setup}
+            \resumeItem{Performed string-alignments, shock set-downs, and other setup procedures in time intensive setting}
             \resumeItemListEnd
     \company{Mishimoto}{New Castle, Delaware}
         \role{Design Engineering Intern}{May 2021 -- August 2021}
             \resumeItemListStart
-            \resumeItem{Designed radiator, cooling pipes, and other parts to increase vehicle performance}
-            \resumeItem{Designed parts using rapid production}
+            \resumeItem{Reverse engineered radiators, boost-control valve, charge pipes, to increase performance}
+            \resumeItem{Validated strength rating of modular tow-hook using SOLIDWORKS simulation}
+            \resumeItem{Communicated directly with vendors to integrate manufacturing criteria into designs}
             %\resumeItem{Created 3D models of vehicle parts using SOLIDWORKS}
             %\resumeItem{Drafted high detail engineering drawings of automotive parts using SOLIDWORKS}
             %\resumeItem{Communicate designs requirements with QC team to maintain high quality and precision}
@@ -199,17 +188,19 @@
 %-----------SKILLS-----------
 \section{Technical Skills}
     \resumeItemListStart
-    \resumeItem{\textit{Software}{: SOLIDWORKS, Fusion 360, Flux PCB, Rapid Harness, Python, Git, MATLAB, MoTeC EFI calibration}} \vspace{-5pt}
-    \resumeItem{\textit{Hardware}{: Oscilloscope, HAAS CNC machining, TIG welding, metal fabrication, 3D scanning}}
+        \resumeItem{\textit{Software}{: SOLIDWORKS, Fusion 360, Flux PCB, Rapid Harness, Python, Git, MATLAB, MoTeC EFI calibration}} \vspace{-5pt}
+        \resumeItem{\textit{Hardware}{: Oscilloscope, HAAS CNC machining, TIG welding, metal fabrication, 3D scanning}}
     \resumeItemListEnd
  \vspace{-16pt}
 
 %-----------Awards---------------
-\section{Achievements}
-Eagle Scout
-Certified SOLIDWORKS Associate (CSWA) - Mechanical Design
-Certified SOLIDWORKS Associate (CSWA) - Simulation
-Professional Ski Instructors of America (PSIA) Level 1 Alpine Certification
-
-
+\section{Credentials}
+    \credentialListStart
+        \credential{United States Government Security Clearance}{June 2022}
+        \credential{Certified SOLIDWORKS Associate (CSWA) - Mechanical Design}{May 2021}
+        \credential{Certified SOLIDWORKS Associate (CSWA) - Simulation}{April 2022}
+        \credential{Eagle Scout - Boy Scounts of America}{August 2018}
+        \credential{Level 1 Alpine Certification - Professional Ski Instructors of America (PSIA) }{February 2021}
+    \credentialListEnd
+    
 \end{document}
