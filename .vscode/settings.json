@@ -1,10 +1,4 @@
 {
-    "workbench.colorTheme": "Default Dark+",
-    "explorer.confirmDelete": false,
-    "workbench.startupEditor": "none",
-    "git.ignoreMissingGitWarning": true,
-    "remoteHub.commitDirectlyWarning": "off",
-    "latex-workshop.intellisense.biblatexJSON.replace": {},
     "latex-workshop.latex.recipes": [
         {
             "name": "latexmk",
