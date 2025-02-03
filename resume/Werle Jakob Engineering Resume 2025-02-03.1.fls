@@ -1,7 +1,7 @@
-PWD c:\Users\jakob\projects\portfolio\resume\Werle_Jakob_engineering_resume_2025_01_27_3
+PWD c:\Users\jakob\projects\portfolio\resume
 INPUT C:\Users\jakob\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\jakob\projects\portfolio\resume\Werle_Jakob_engineering_resume_2025_01_27_3\main.tex
-OUTPUT main.log
+INPUT c:\Users\jakob\projects\portfolio\resume\Werle Jakob Engineering Resume 2025-02-03.1.tex
+OUTPUT Werle Jakob Engineering Resume 2025-02-03.1.log
 INPUT C:\Users\jakob\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\jakob\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\jakob\AppData\Local\Programs\MiKTeX\tex\latex\base\size11.clo
@@ -133,21 +133,21 @@ INPUT C:\Users\jakob\AppData\Local\Programs\MiKTeX\tex\generic\pdftex\glyphtouni
 INPUT C:\Users\jakob\AppData\Local\Programs\MiKTeX\tex\generic\pdftex\glyphtounicode.tex
 INPUT C:\Users\jakob\AppData\Local\Programs\MiKTeX\tex\generic\pdftex\glyphtounicode.tex
 INPUT C:\Users\jakob\AppData\Local\Programs\MiKTeX\tex\generic\pdftex\glyphtounicode.tex
-INPUT .\main.aux
-INPUT .\main.aux
-INPUT main.aux
-OUTPUT main.aux
+INPUT .\Werle Jakob Engineering Resume 2025-02-03.1.aux
+INPUT .\Werle Jakob Engineering Resume 2025-02-03.1.aux
+INPUT Werle Jakob Engineering Resume 2025-02-03.1.aux
+OUTPUT Werle Jakob Engineering Resume 2025-02-03.1.aux
 INPUT C:\Users\jakob\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\jakob\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\jakob\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
-INPUT .\main.out
-INPUT .\main.out
-INPUT main.out
-INPUT main.out
-OUTPUT main.pdf
-INPUT .\main.out
-INPUT .\main.out
-OUTPUT main.out
+INPUT .\Werle Jakob Engineering Resume 2025-02-03.1.out
+INPUT .\Werle Jakob Engineering Resume 2025-02-03.1.out
+INPUT Werle Jakob Engineering Resume 2025-02-03.1.out
+INPUT Werle Jakob Engineering Resume 2025-02-03.1.out
+OUTPUT Werle Jakob Engineering Resume 2025-02-03.1.pdf
+INPUT .\Werle Jakob Engineering Resume 2025-02-03.1.out
+INPUT .\Werle Jakob Engineering Resume 2025-02-03.1.out
+OUTPUT Werle Jakob Engineering Resume 2025-02-03.1.out
 INPUT C:\Users\jakob\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\jakob\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmcsc10.tfm
 INPUT C:\Users\jakob\AppData\Local\Programs\MiKTeX\tex\latex\fontawesome5\ufontawesomefree2.fd
@@ -188,9 +188,9 @@ INPUT C:\Users\jakob\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\jakob\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\fontawesome5\fa5free2.enc
 INPUT C:\Users\jakob\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\fontawesome5\fa5free1.enc
 INPUT C:\Users\jakob\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\fontawesome5\fa5brands0.enc
-INPUT main.aux
-INPUT .\main.out
-INPUT .\main.out
+INPUT Werle Jakob Engineering Resume 2025-02-03.1.aux
+INPUT .\Werle Jakob Engineering Resume 2025-02-03.1.out
+INPUT .\Werle Jakob Engineering Resume 2025-02-03.1.out
 INPUT C:\Users\jakob\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\jakob\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\jakob\AppData\Local\Programs\MiKTeX\fonts\type1\public\fontawesome5\FontAwesome5Brands-Regular.pfb
