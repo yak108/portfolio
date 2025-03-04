@@ -1,0 +1,205 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%-----FONT OPTIONS-----
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+% CUSTOM SECTION FORMATTING
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large%\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\newcommand{\company}[2]{
+  \vspace{-2pt}\item
+  \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & \textbf{\small #2} \\
+  \end{tabular*}\vspace{-18pt}
+}
+
+\newcommand{\role}[2]{
+  \vspace{-5pt}\item
+  \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textit{\small#1} & \textit{\small #2} \\
+  \end{tabular*}\vspace{-20pt}
+}
+
+\newcommand{\resumeItemListStart}{
+  \begin{itemize}[label=\tiny$\bullet$, leftmargin=0.25in] % Ensure flat level
+}
+
+\newcommand{\resumeItemListEnd}{
+  \end{itemize}\vspace{-5pt}
+}
+
+\newcommand{\resumeItem}[1]{
+  \item\small{#1 \vspace{-2pt}}
+}
+
+\newcommand{\credentialListStart}{
+  \vspace{-4pt}
+  \begin{itemize}[label=\tiny$\bullet$, leftmargin=0.25in] %Ensure flat level
+}
+
+\newcommand{\credentialListEnd}{
+  \end{itemize}\vspace{-5pt}
+}
+
+\newcommand{\credential}[2]{
+  \item
+  \begin{tabular*}{0.94\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textnormal{\small#1} & \textit{\small #2} \\
+  \end{tabular*}\vspace{-8pt}
+}
+
+\newcommand{\companyListStart}{
+  \begin{itemize}[leftmargin=0.0in, label={}]
+}
+
+\newcommand{\companyListEnd}{
+  \end{itemize}
+}
+
+% RESUME BEGINS HERE
+
+\begin{document}
+% HEADER
+\begin{center}
+    {\Huge \scshape Jakob Werle} \\ \vspace{1pt}
+    Forest Lake, Minnesota \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ 570-533-6951 ~ \href{mailto:jakobwerle@outlook.com}{\raisebox{-0.2\height}\faEnvelope\ jakobwerle@outlook.com} ~ 
+    \href{https://linkedin.com/in/jakobwerle}{\raisebox{-0.2\height}\faLinkedin\ linkedin.com/in/jakobwerle}
+    \vspace{-8pt}
+\end{center}
+
+% EDUCATION
+\section{Education}
+  \companyListStart
+    \company{Temple University}{Philadelphia, Pennsylvania}
+      \role{Bachelor of Science in Mechanical Engineering}{Graduated August 2024}
+  \companyListEnd
+\vspace{-12pt}
+
+% EXPERIENCE
+\section{Professional Experience}
+  \companyListStart
+    \company{ANZE Suspension}{Jupiter, Florida (Remote/Traveling)}
+        \role{Junior Race Engineer / Technician}{May 2022 -- Present}
+            \resumeItemListStart
+            %\resumeItem{Assisted lead engineer in spotting \& data collection in pit box during race sessions}
+            \resumeItem{Quantified vehicle behavior by debriefing driver on handling characteristics through cornering phases}
+            \resumeItem{Analyzed time-distance plots, lap charts, \& histograms to pinpoint performance gaps and assess impact of vehicle parameters on driving behaviors using MoTeC \& AIM telemetry software}
+            \resumeItem{Precisely measured, logged, \& adjusted vehicle setup parameters in intense, time critical environment}
+            \resumeItemListEnd
+    \company{NDI Engineering}{Thorofare, New Jersey}
+        \role{Mechanical Engineer I}{June 2022 -- June 2024}
+            \resumeItemListStart
+            \resumeItem{Oversaw the completion of a 35 drawing GD\&T package by coordinating deadlines with team members, ensuring compliance with military specifications, \& approving finished prints before final sign off}
+            \resumeItem{Spearheaded drawing production \& tolerance stack analysis for large-scale technology development on Naval vessels}
+            \resumeItem{Developed destructive test methods for inserts in composite structures using fixtures designed \& validated with FEA}
+            \resumeItem{Provided engineering support to technical manual development team}
+            \resumeItemListEnd
+     \company{Temple Formula Racing FSAE}{Philadelphia, Pennsylvania}
+        \role{Systems Integration Engineer / Senior Advising Member}{Sept 2023 -- May 2024}
+            \resumeItemListStart
+            \resumeItem{Contributed to the team placing 7th in design \& 15th overall out of 120 teams at the 2024 FSAE Michigan competition}
+            \resumeItem{Developed modular test bench to prototype race car pneumatic paddle shifting system, which won 3rd place in Temple College of Engineering senior design contest}
+            \resumeItem{Designed and constructed full vehicle wiring harness using Rapid Harness software that integrates ECU, CAN bus, \& data from 20+ sensors, which closely aligns with military specifications}
+            %\resumeItem{Solved reliability failures by analyzing the current and voltage draw of critical electrical components}
+            \resumeItem{Collaboratively developed baseline engine calibration by monitoring engine diagnostics to resolve idle instability \& throttle response issues while track-tuning}
+            \resumeItem{Implemented vehicle setup, data analysis, and driver training procedures to establish data-driven team performance baselines}
+            \resumeItemListEnd
+        \role{President / Chief Engineer}{June 2021 -- June 2022}
+            \resumeItemListStart
+            \resumeItem{Acted as cross-functional leader to manage the design, fabrication, and testing of 7 vehicle subsystems, consisting of 50+ members; using \textit{TeamGantt} software}
+            \resumeItem{Strategized with business team to expand the~\textdollar75,000 team budget by obtaining company partnerships}
+            \resumeItem{Redesigned and machined wheel assembly parts, reducing component mass by 15\%, cutting material usage by 132 cubic inches, saving 20+ hours of machining time, and yielding reusable tooling and fixtures}
+            \resumeItemListEnd
+        %\role{Suspension System Team Lead}{June 2020 -- June 2021}
+            %\resumeItemListStart
+            %\resumeItem{Spearheaded major suspension design overhaul from 13" to 10" wheel platform}
+            %\resumeItem{Wrote python code to optimize vehicle handling by analyzing vehicle dynamics and tire behavior}
+            %\resumeItem{Designed suspension linkages and wheel assemblies to achieve precise kinematic parameters using SOLIDWORKS}
+            %\resumeItem{Fabricated wheel assemblies using Fusion360 CAM \& HAAS CNC mill \& lathe}
+            %\resumeItem{Collaborated with other system leads to ensure cohesive design elements}
+            %\resumeItemListEnd       
+    \company{Mishimoto}{New Castle, Delaware}
+        \role{Design Engineering Intern}{May 2021 -- August 2021}
+            \resumeItemListStart
+            \resumeItem{Linearized boost response in Boost Control Valve by testing re-profiled valve needles on Flow Bench}
+            \resumeItem{Reverse engineered radiators, boost-control valve, \& charge pipes and included Design for Manufacturing features}
+            \resumeItem{Recreated virtual test-fitting environment by 3D-scanning engine bay with FARO Arm}
+            \resumeItem{Modeled modular tow-hook using configurable SOLIDWORKS file structure}
+            \resumeItemListEnd
+  \companyListEnd
+\vspace{-16pt}
+
+% SKILLS
+\section{Technical Skills}
+    \resumeItemListStart
+        \resumeItem{\textit{Design Tools}{: SOLIDWORKS, Fusion 360, Rapid Harness, Flux PCB, 3D scanning, GD\&T}, DFM} \vspace{-5pt}
+        \resumeItem{\textit{Analysis}{: MS Excel, Python, MATLAB, EFI Calibration, Tolerance Stacking}}
+        \vspace{-5pt}
+        \resumeItem{\textit{Production}{: HAAS CNC machining, TIG welding, wiring harness construction}}
+    \resumeItemListEnd
+ \vspace{-16pt}
+
+% CREDENTIALS
+\section{Credentials}
+    \credentialListStart
+        %\credential{United States Government Security Clearance}{June 2022}%
+        \credential{Certified SOLIDWORKS Associate (CSWA) - Mechanical Design}{May 2020}
+        \credential{Certified SOLIDWORKS Associate (CSWA) - Simulation}{April 2022}
+        \credential{SCCA (Sports Car Club of America) Regional Scrutineer License}{June 2023}
+        \credential{Eagle Scout - Boy Scouts of America}{August 2018}
+        \credential{Level 1 Alpine Certification - Professional Ski Instructors of America (PSIA) }{February 2021}
+    \credentialListEnd
+    
+\end{document}

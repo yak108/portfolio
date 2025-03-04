@@ -1,7 +1,7 @@
 PWD /Users/jakob/projects/portfolio/resume
 INPUT /Users/jakob/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt
-INPUT /Users/jakob/projects/portfolio/resume/Werle Jakob Engineering Resume 2025-02-03.1.tex
-OUTPUT Werle Jakob Engineering Resume 2025-02-03.1.log
+INPUT /Users/jakob/projects/portfolio/resume/Werle Jakob Engineering Resume 2025-03-04.1 copy.tex
+OUTPUT Werle Jakob Engineering Resume 2025-03-04.1 copy.log
 INPUT /Users/jakob/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
 INPUT /Users/jakob/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
 INPUT /Users/jakob/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size11.clo
@@ -133,21 +133,21 @@ INPUT /Users/jakob/Library/Application Support/MiKTeX/texmfs/install/tex/generic
 INPUT /Users/jakob/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pdftex/glyphtounicode.tex
 INPUT /Users/jakob/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pdftex/glyphtounicode.tex
 INPUT /Users/jakob/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pdftex/glyphtounicode.tex
-INPUT ./Werle Jakob Engineering Resume 2025-02-03.1.aux
-INPUT ./Werle Jakob Engineering Resume 2025-02-03.1.aux
-INPUT Werle Jakob Engineering Resume 2025-02-03.1.aux
-OUTPUT Werle Jakob Engineering Resume 2025-02-03.1.aux
+INPUT ./Werle Jakob Engineering Resume 2025-03-04.1 copy.aux
+INPUT ./Werle Jakob Engineering Resume 2025-03-04.1 copy.aux
+INPUT Werle Jakob Engineering Resume 2025-03-04.1 copy.aux
+OUTPUT Werle Jakob Engineering Resume 2025-03-04.1 copy.aux
 INPUT /Users/jakob/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 INPUT /Users/jakob/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 INPUT /Users/jakob/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
-INPUT ./Werle Jakob Engineering Resume 2025-02-03.1.out
-INPUT ./Werle Jakob Engineering Resume 2025-02-03.1.out
-INPUT Werle Jakob Engineering Resume 2025-02-03.1.out
-INPUT Werle Jakob Engineering Resume 2025-02-03.1.out
-OUTPUT Werle Jakob Engineering Resume 2025-02-03.1.pdf
-INPUT ./Werle Jakob Engineering Resume 2025-02-03.1.out
-INPUT ./Werle Jakob Engineering Resume 2025-02-03.1.out
-OUTPUT Werle Jakob Engineering Resume 2025-02-03.1.out
+INPUT ./Werle Jakob Engineering Resume 2025-03-04.1 copy.out
+INPUT ./Werle Jakob Engineering Resume 2025-03-04.1 copy.out
+INPUT Werle Jakob Engineering Resume 2025-03-04.1 copy.out
+INPUT Werle Jakob Engineering Resume 2025-03-04.1 copy.out
+OUTPUT Werle Jakob Engineering Resume 2025-03-04.1 copy.pdf
+INPUT ./Werle Jakob Engineering Resume 2025-03-04.1 copy.out
+INPUT ./Werle Jakob Engineering Resume 2025-03-04.1 copy.out
+OUTPUT Werle Jakob Engineering Resume 2025-03-04.1 copy.out
 INPUT /Users/jakob/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr17.tfm
 INPUT /Users/jakob/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT /Users/jakob/Library/Application Support/MiKTeX/texmfs/install/tex/latex/fontawesome5/ufontawesomefree2.fd
@@ -185,9 +185,9 @@ INPUT /Users/jakob/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/p
 INPUT /Users/jakob/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/latex-fonts/lasy5.tfm
 INPUT /Users/jakob/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT /Users/jakob/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map
-INPUT Werle Jakob Engineering Resume 2025-02-03.1.aux
-INPUT ./Werle Jakob Engineering Resume 2025-02-03.1.out
-INPUT ./Werle Jakob Engineering Resume 2025-02-03.1.out
+INPUT Werle Jakob Engineering Resume 2025-03-04.1 copy.aux
+INPUT ./Werle Jakob Engineering Resume 2025-03-04.1 copy.out
+INPUT ./Werle Jakob Engineering Resume 2025-03-04.1 copy.out
 INPUT /Users/jakob/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk
 INPUT /Users/jakob/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk
 INPUT /Users/jakob/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmsy6.pk

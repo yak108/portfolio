@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.3.4)  4 MAR 2025 10:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.3.4)  4 MAR 2025 10:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/jakob/projects/portfolio/resume/Werle Jakob Engineering Resume 2025-02-03.1.tex"
-(/Users/jakob/projects/portfolio/resume/Werle Jakob Engineering Resume 2025-02-03.1.tex
+**"/Users/jakob/projects/portfolio/resume/Werle Jakob Engineering Resume 2025-03-04.1 copy.tex"
+(/Users/jakob/projects/portfolio/resume/Werle Jakob Engineering Resume 2025-03-04.1 copy.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/Users/jakob/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
@@ -317,8 +317,8 @@ Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
 \mult@nat@firstbox=\box101
 \colbreak@box=\box102
 \mc@col@check@num=\count297
-) (/Users/jakob/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pdftex/glyphtounicode.tex) (Werle Jakob Engineering Resume 2025-02-03.1.aux)
-\openout1 = `"Werle Jakob Engineering Resume 2025-02-03.1.aux"'.
+) (/Users/jakob/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pdftex/glyphtounicode.tex) (Werle Jakob Engineering Resume 2025-03-04.1 copy.aux)
+\openout1 = `"Werle Jakob Engineering Resume 2025-03-04.1 copy.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
 LaTeX Font Info:    ... okay on input line 112.
@@ -353,9 +353,9 @@ LaTeX Font Info:    ... okay on input line 112.
 \everyMPtoPDFconversion=\toks27
 )
 Package hyperref Info: Link coloring OFF on input line 112.
- (Werle Jakob Engineering Resume 2025-02-03.1.out) (Werle Jakob Engineering Resume 2025-02-03.1.out)
+ (Werle Jakob Engineering Resume 2025-03-04.1 copy.out) (Werle Jakob Engineering Resume 2025-03-04.1 copy.out)
 \@outlinefile=\write3
-\openout3 = `"Werle Jakob Engineering Resume 2025-02-03.1.out"'.
+\openout3 = `"Werle Jakob Engineering Resume 2025-03-04.1 copy.out"'.
 
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 117.
  (/Users/jakob/Library/Application Support/MiKTeX/texmfs/install/tex/latex/fontawesome5/ufontawesomefree2.fd)
@@ -376,7 +376,7 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 125
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 133.
+(Font)              <5> on input line 137.
 
 
 
@@ -386,24 +386,24 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [1
 
-{/Users/jakob/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map}] (Werle Jakob Engineering Resume 2025-02-03.1.aux)
+{/Users/jakob/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map}] (Werle Jakob Engineering Resume 2025-03-04.1 copy.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `"Werle Jakob Engineering Resume 2025-02-03.1".out' has not changed.
-(rerunfilecheck)             Checksum: 2AD7508BD6B5FACC52E549FCF808B1DC;473.
+Package rerunfilecheck Info: File `"Werle Jakob Engineering Resume 2025-03-04.1 copy".out' has not changed.
+(rerunfilecheck)             Checksum: DE1A1037F02FE50D9DE5BDDE8A281499;473.
  ) 
 Here is how much of TeX's memory you used:
  14212 strings out of 475466
- 251525 string characters out of 5764422
- 667190 words of memory out of 5000000
+ 251635 string characters out of 5764422
+ 667215 words of memory out of 5000000
  37034 multiletter control sequences out of 15000+600000
  565782 words of font info for 61 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 75i,11n,79p,377b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,382b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/jakob/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk> </Users/jakob/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmsy6.pk> </Users/jakob/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmti10.pk> </Users/jakob/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmbx10.pk> </Users/jakob/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/public/cm/dpi657/cmbx10.pk> </Users/jakob/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/public/cm/dpi720/cmcsc10.pk>{/Users/jakob/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/Users/jakob/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/fontawesome5/fa5free1.enc} </Users/jakob/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmr10.pk>{/Users/jakob/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/fontawesome5/fa5free2.enc} </Users/jakob/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/public/cm/dpi657/cmr10.pk> </Users/jakob/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/public/cm/dpi1493/cmcsc10.pk></Users/jakob/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></Users/jakob/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb>
-Output written on "Werle Jakob Engineering Resume 2025-02-03.1.pdf" (1 page, 101815 bytes).
+Output written on "Werle Jakob Engineering Resume 2025-03-04.1 copy.pdf" (1 page, 101793 bytes).
 PDF statistics:
  300 PDF objects out of 1000 (max. 8388607)
  6 named destinations out of 1000 (max. 500000)
